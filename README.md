@@ -1,5 +1,4 @@
-# Define the content for the README.md file
-readme_content = """# Breakout in Go (Raylib)
+# Breakout in Go (Raylib)
 
 A classic Breakout game implementation written in Go using the [raylib-go](https://github.com/gen2brain/raylib-go) library.
 
@@ -23,8 +22,8 @@ Before running the game, ensure you have the following installed:
 ### 1. Clone the Repository
 Open your terminal (e.g., Windows Terminal, PowerShell, or Bash) and run:
 ```bash
-git clone [https://github.com/YOUR_USERNAME/breakout-go.git](https://github.com/YOUR_USERNAME/breakout-go.git)
-cd breakout-go
+git clone [https://github.com/YOUR_USERNAME/breakOut.git](https://github.com/YOUR_USERNAME/breakOut.git)
+cd breakOut
 ```
 ### 2. Install Dependencies
 Run the following command to download the necessary Go modules:
@@ -37,25 +36,22 @@ To start the game directly from your terminal, type:
 go run .
 ```
 
-Controls
+### Controls
 A: Move Paddle Left
 
 D: Move Paddle Right
 
 Space: Launch Ball (at the start of the game)
 
-Project Structure
-main.go: Entry point and game loop logic.
+### Project Structure
+*main.go*: Entry point and game loop logic.
 
+*physics_body.go*: Core physics and collision movement.  
 
-physics_body.go: Core physics and collision movement.  
+*ball.go*: Ball object and drawing.  
 
+*paddle.go*: Paddle object and drawing.
 
-ball.go: Ball object and drawing.  
+*brick.go*: Individual brick properties.  
 
-paddle.go: Paddle object and drawing.
-
-
-brick.go: Individual brick properties.  
-
-grid.go: Logic for the brick layout and hit detection.
+*grid.go*: Logic for the brick layout and hit detection.
