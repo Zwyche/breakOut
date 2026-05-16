@@ -36,14 +36,14 @@ To start the game directly from your terminal, type:
 go run .
 ```
 
-### Controls
+## Controls
 A: Move Paddle Left
 
 D: Move Paddle Right
 
 Space: Launch Ball (at the start of the game)
 
-### Project Structure
+## Project Structure
 *main.go*: Entry point and game loop logic.
 
 *physics_body.go*: Core physics and collision movement.  
